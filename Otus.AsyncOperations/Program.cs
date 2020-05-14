@@ -13,6 +13,7 @@ namespace Otus.AsyncOperations
       // await AsyncVoidShowcase.Run();
       // AsyncVoidExceptionShowcase.Run();
       await TaskCompletionSourceShowcase.Run();
+      // https://sharplab.io/#gist:78177fea60237e719d0deec12bb53c0e
 
       Console.WriteLine();
       Console.WriteLine("Program is completed");

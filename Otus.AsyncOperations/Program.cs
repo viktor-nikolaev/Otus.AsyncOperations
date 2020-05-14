@@ -11,8 +11,11 @@ namespace Otus.AsyncOperations
       // ThreadCountShowase.Run();
       // AsyncShowcase.Run();
       // await AsyncVoidShowcase.Run();
+      await AsyncThreadsShowcase.Run();
       // AsyncVoidExceptionShowcase.Run();
-      await TaskCompletionSourceShowcase.Run();
+      // await TaskCompletionSourceShowcase.Run();
+      // await AsyncLocalShowcase.Run();
+      
       // https://sharplab.io/#gist:78177fea60237e719d0deec12bb53c0e
 
       Console.WriteLine();

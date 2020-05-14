@@ -11,12 +11,12 @@ namespace Otus.AsyncOperations
       var tcs = new TaskCompletionSource<bool>();
 
       Console.WriteLine("Starting the timer");
-      
+
       var timer = new Timer(1000);
       timer.Elapsed += (sender, args) => tcs.SetResult(true);
 
       await tcs.Task;
-      
+
       Console.WriteLine("Await is complete");
     }
   }
